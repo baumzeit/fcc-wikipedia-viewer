@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside>
+      <h5 class>Wikipedia<br>Viewer</h5>
+    </aside>
+
+    <div id="menu" class="menu">
+      <input id="searchInput"
+        type="search"
+        placeholder="Search Wikipedia">
+
+      <a id="randomLink"
+        href="https://en.wikipedia.org/wiki/Special:Random"
+        target="_blank">
+
+        <button>... or show a random page</button>
+      </a>
+    </div>
+  </div>
+
+  <div id="resultsContainer">
+    <ul />
+
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

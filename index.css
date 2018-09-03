@@ -1,0 +1,101 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+aside {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  color: white;
+}
+.wrapper {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #292929;
+}
+.menu {
+  width: 300px;
+}
+.menu * {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  border: 0;
+  border-radius: 5px;
+}
+.menu-list {
+  padding: 25px 0px;
+  align-self: start;
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.menu-list #randomLink {
+  align-self: flex-end;
+  width: 200px;
+  margin: 0 200px 0 70px;
+}
+.menu-list #searchInput {
+  align-self: center;
+  height: 32px;
+  width: 45%;
+  box-shadow: 0px 0px;
+  margin-bottom: 0px;
+}
+#searchInput {
+  height: 50px;
+  background: white;
+  padding: 1rem;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+#randomLink {
+  text-decoration: none;
+}
+#randomLink button {
+  height: 32px;
+  font-size: 14px;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+#randomLink button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.resultsContainer {
+  background: #bfbfbf fixed;
+  padding: 20px 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+}
+li {
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 40px 95px 40px 95px;
+  padding-bottom: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid white;
+  border-radius: 4px;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+}
+li:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+span {
+  background-color: #ffffca;
+}
+.entry-link,
+.entry-link:hover {
+  text-decoration: none;
+  color: black;
+}
